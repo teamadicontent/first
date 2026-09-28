@@ -13,7 +13,7 @@ A free lead magnet of 5–10 ready-to-post LinkedIn posts, written for one prosp
 ### 1. Research (budget: 1 Eden credit + ~5–9 web searches)
 - **Network note:** this cloud environment blocks direct fetches of linkedin.com and most sites (the browser too). `WebSearch` works and returns source URLs; use it for all web research. Eden is the only way to read LinkedIn posts.
 - **Eden credits (~250/month, shared with post writing):** call `eden_analyze_creator` once with `creatorRef {platform: linkedin, username: <slug from URL>}` and `since: year`. A first-time creator returns `indexing`; wait ~15s and call again (the retry didn't appear to cost a second pull). Skip `eden_resolve_creator` when the URL gives the slug.
-- **LinkedIn via Eden:** `eden_resolve_creator` (platform `linkedin`), then `eden_analyze_creator` gives recent posts, standout posts vs. their own baseline, topic and format mix. If the resolution is ambiguous, stop and ask. Use `eden_read_social_post` for full text of 2–3 posts to learn their voice.
+- **What Eden returns:** `eden_analyze_creator` gives recent posts, standout posts vs. their own baseline, topic and format mix. If the resolution is ambiguous, stop and ask. Use `eden_read_social_post` for full text of 2–3 posts to learn their voice.
 - **Web:** company site, podcasts, interviews, articles, press, talks. Record each finding with its URL.
 - Write `lead-magnet/prospects/<yyyy-mm-dd>-<name-slug>.md`, containing:
   - Who they are, what they sell, who they sell to

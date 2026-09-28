@@ -32,11 +32,17 @@ A free lead magnet of 5–10 ready-to-post LinkedIn posts, written for one prosp
 ### 3. Write and check
 - Write each post in the prospect's voice, following the skeleton's mechanic, not its wording.
 - Voice pass: does it sound like their posts, not like a template?
-- Fact pass: every specific claim in every post maps to a row in the brief. Cut or generalise anything that doesn't.
+- Fact pass: every specific claim in every post maps to a row in the brief. Cut or generalise anything that doesn't. This includes opinions: don't put a take in their mouth that their sources don't support.
+- **Voice-guard pass (mandatory, before the doc).** Read the full `05-voice-guard.md` and `05a-ai-tells.md` in the prospect-spec-posts skill references. Fix all P0 and P1 items in every post:
+  - Floor: em/en dashes, bold, chatbot phrases, vague attributions, hashtag stuffing, `[placeholders]` inside a post body. Emojis and hashtags are allowed only when the prospect provably uses them (cite the post).
+  - Endings: delete slogan/aphorism endings ("X. Y. That's the game.", "You don't need X. You need Y."). End on the last concrete line or a plain question.
+  - Hooks: no "The good news?", "The catch?", "Here's what I'm noticing/what stood out", "this one's for you", "And a lot more". Don't start with the first words the guard lists as AI fingerprints (The, How, In, This, Here, As...).
+  - At most one X-not-Y line, and only when a real belief is being negated. No self-answered questions. Vary list lengths (not everything in threes).
+  - Then run a regex scan for the banned words and patterns, and re-read each post once more (second pass).
 
 ### 4. Lead magnet doc
 - Build it in the **fixed format** (see "Doc format" below).
-- Destination: _TBD, Google Drive or Claude Docs (pending Adi's decision)._
+- Destination: Google Drive (Google Doc). The Drive tools can't edit a doc's text after creation, so get it right before uploading; a fix means a new doc.
 
 ### 5. 4th-touch message (LinkedIn connection request note)
 - **Hard limit: 300 characters, including the doc link.** Count with a script every time and state the count. Aim for ≤280 so Souvik has room to edit.
@@ -57,7 +63,7 @@ Created with `mcp__Google_Drive__create_file`, `contentMimeType: text/html` (con
 1. H1 `N LinkedIn posts for <Name>` + italic line: written in your voice, built from <their sources>, free to use, edit or ignore.
 2. H2 `How these were made`: 2 short paragraphs (what was read, the one-line audit insight; every fact comes from something they published).
 3. H2 `At a glance`: numbered list, `<post title> (<format>)`.
-4. Per post: H2 `Post N: <title>` · `Format:` + `Why this one:` (1–2 lines tied to their data) · rule · the post, one paragraph per line with blank-line spacers · rule · grey small `Built from: <source URL>`.
+4. Per post: H2 `Post N: <title>` · `Format:` + `Why this one:` (1–2 lines tied to their data) · rule · the post, one paragraph per line with blank-line spacers · rule · optional `Image idea:` line (outside the post) · grey small `Source: <source URL>` (label changed by Adi).
 5. H2 `A note before you post`: any figures they should double-check.
 6. Sign-off: `Put together by Adi, Signal.`
 7. Share the doc as "anyone with the link can view" before the DM goes out.

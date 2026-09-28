@@ -46,9 +46,12 @@ T-LC6.1 (contrarian), T9.2 (contrarian, playful), T-LC29.4 (educational listicle
 - Third exit isn't named in any public source; the timeline post covers only ZapThink and Cognilytica.
 
 ## Output
-- Google Doc: https://docs.google.com/document/d/1ydfgdgCWOCRYhNvxAi2DH2PnIO1ZP5R7IqWOzJzpT8E/edit
+- Google Doc: https://docs.google.com/document/d/15tPLI93X1cRHwCh-K-bMT4yyopBFrquBmqSUr8GAWcQ/edit
 - Doc source: `2026-09-28-ron-schmelzer-doc.html`
 
 ## 4th-touch connection note (267/300 chars incl. link, for Souvik to edit)
 
-Ron, your Stick joke got 24 comments, the MacPaw episode got 1. Your hiring math and 5 Laws of Scalemaxxing mostly show up as links, so I turned them into 7 posts in your voice. Free, no strings: docs.google.com/document/d/1ydfgdgCWOCRYhNvxAi2DH2PnIO1ZP5R7IqWOzJzpT8E
+Ron, your Stick joke got 24 comments, the MacPaw episode got 1. Your hiring math and 5 Laws of Scalemaxxing mostly show up as links, so I turned them into 7 posts in your voice. Free, no strings: docs.google.com/document/d/15tPLI93X1cRHwCh-K-bMT4yyopBFrquBmqSUr8GAWcQ
+
+## Voice-guard recheck (v2)
+v1 had no hard-floor violations but had these structural tells, all fixed in v2: slogan endings on 5 of the 7 posts ("Leverage always beat headcount...", "You don't need to predict the future. You need to...", "Small team. Big scale.", "Microteams should let them. Carefully."), "The good news?" hook, "Here's what I'm noticing:", "this one's for you" endorsement closer, "And a lot more.", a self-answered question in Post 6, rule-of-three lists, "How" as the first word, opinions Ron never stated (Post 5 ending, Post 6 law 2 gloss, Post 7 advice), an unfilled [Image] line inside a post body. The doc also said "Worth a quick check" ("worth ..." is a banned endorsement). Old doc renamed "(old draft)" in Drive.

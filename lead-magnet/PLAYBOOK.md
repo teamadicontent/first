@@ -75,3 +75,6 @@ Created with `mcp__Google_Drive__create_file`, `contentMimeType: text/html` (con
 - `templates/templates.json`: the same data, machine-readable
 - `templates/tags.txt`: hand-assigned `type tone spec` per template. To re-tag, edit this, then re-run `parse.py` and the merge step
 - `prospects/`: one research brief and post set per prospect
+
+## Skill
+The whole process is packaged as a skill: `.claude/skills/prospect-lead-magnet/` (auto-loads in sessions on this repo), and as an uploadable file at `dist/prospect-lead-magnet.skill`. If the process changes, edit the skill and re-package with skill-creator's `package_skill.py`.

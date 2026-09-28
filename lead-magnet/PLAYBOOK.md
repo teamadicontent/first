@@ -38,8 +38,10 @@ A free lead magnet of 5–10 ready-to-post LinkedIn posts, written for one prosp
 - Build it in the **fixed format** (see "Doc format" below).
 - Destination: _TBD, Google Drive or Claude Docs (pending Adi's decision)._
 
-### 5. 4th-touch DM
-- Draft using the Signal outreach craft: open with a real, specific detail from research, position the doc as a free gift with no ask attached, link it, keep it short.
+### 5. 4th-touch message (LinkedIn connection request note)
+- **Hard limit: 300 characters, including the doc link.** Count with a script every time and state the count. Aim for ≤280 so Souvik has room to edit.
+- Link: `docs.google.com/document/d/<id>` (no https://, no /edit), which is about 72 characters, so the text itself gets ~200–220.
+- Signal outreach craft rules: line one proves you looked (one specific number or detail from their posts), one idea, the doc as a free gift, soft close. No em dashes, emojis, flattery or "I came across your profile".
 - Output it as plain text for Souvik to edit.
 
 ### 6. Hand-off and record

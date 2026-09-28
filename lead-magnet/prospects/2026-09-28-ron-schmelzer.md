@@ -49,14 +49,6 @@ T-LC6.1 (contrarian), T9.2 (contrarian, playful), T-LC29.4 (educational listicle
 - Google Doc: https://docs.google.com/document/d/1ydfgdgCWOCRYhNvxAi2DH2PnIO1ZP5R7IqWOzJzpT8E/edit
 - Doc source: `2026-09-28-ron-schmelzer-doc.html`
 
-## 4th-touch DM (for Souvik to edit)
+## 4th-touch connection note (267/300 chars incl. link, for Souvik to edit)
 
-Ron, your 30-word "Stick raises $50B" post pulled 24 comments. The MacPaw episode post got 1, and Vira's co-founder line was sitting in the middle of it.
-
-Your best material works the same way. The hiring math, the 5 Laws of Scalemaxxing, the 23 microteams. It mostly reaches LinkedIn as a link.
-
-So I turned it into 7 posts in your voice. Every number comes from your own newsletter, podcast or Forbes column, with the sources listed.
-
-[doc link]
-
-Yours to use, no strings attached.
+Ron, your Stick joke got 24 comments, the MacPaw episode got 1. Your hiring math and 5 Laws of Scalemaxxing mostly show up as links, so I turned them into 7 posts in your voice. Free, no strings: docs.google.com/document/d/1ydfgdgCWOCRYhNvxAi2DH2PnIO1ZP5R7IqWOzJzpT8E

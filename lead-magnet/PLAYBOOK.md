@@ -10,7 +10,9 @@ A free lead magnet of 5–10 ready-to-post LinkedIn posts, written for one prosp
 
 ## Per-prospect run (input: prospect name + LinkedIn URL)
 
-### 1. Research (budget: Eden profile analysis + ~5 web searches)
+### 1. Research (budget: 1 Eden credit + ~5–9 web searches)
+- **Network note:** this cloud environment blocks direct fetches of linkedin.com and most sites (the browser too). `WebSearch` works and returns source URLs; use it for all web research. Eden is the only way to read LinkedIn posts.
+- **Eden credits (~250/month, shared with post writing):** call `eden_analyze_creator` once with `creatorRef {platform: linkedin, username: <slug from URL>}` and `since: year`. A first-time creator returns `indexing`; wait ~15s and call again (the retry didn't appear to cost a second pull). Skip `eden_resolve_creator` when the URL gives the slug.
 - **LinkedIn via Eden:** `eden_resolve_creator` (platform `linkedin`), then `eden_analyze_creator` gives recent posts, standout posts vs. their own baseline, topic and format mix. If the resolution is ambiguous, stop and ask. Use `eden_read_social_post` for full text of 2–3 posts to learn their voice.
 - **Web:** company site, podcasts, interviews, articles, press, talks. Record each finding with its URL.
 - Write `lead-magnet/prospects/<yyyy-mm-dd>-<name-slug>.md`, containing:
@@ -46,7 +48,17 @@ A free lead magnet of 5–10 ready-to-post LinkedIn posts, written for one prosp
 
 ## Doc format
 
-_v0: not yet fixed. After the first prospect, Adi edits the doc and the final layout gets written here as the standard._
+_v0 (first used for Ron Schmelzer, 2026-09-28). Adi to edit; the final layout gets recorded here._
+
+Created with `mcp__Google_Drive__create_file`, `contentMimeType: text/html` (converts to a Google Doc). Title: `N LinkedIn Posts for <Full Name>`.
+
+1. H1 `N LinkedIn posts for <Name>` + italic line: written in your voice, built from <their sources>, free to use, edit or ignore.
+2. H2 `How these were made`: 2 short paragraphs (what was read, the one-line audit insight; every fact comes from something they published).
+3. H2 `At a glance`: numbered list, `<post title> (<format>)`.
+4. Per post: H2 `Post N: <title>` · `Format:` + `Why this one:` (1–2 lines tied to their data) · rule · the post, one paragraph per line with blank-line spacers · rule · grey small `Built from: <source URL>`.
+5. H2 `A note before you post`: any figures they should double-check.
+6. Sign-off: `Put together by Adi, Signal.`
+7. Share the doc as "anyone with the link can view" before the DM goes out.
 
 ## Files
 
